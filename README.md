@@ -34,3 +34,16 @@ PCA+UMAP（单细胞常用技巧）：
 
 结果尚可
 
+值得一提的是，使用PCA的PC1/2在最初确实无法区分群落，但是使用PC3+PC4就可以了，事实上，我使用PC来进行机器学习之后对区分群体的PC也划分了贡献度：
+使用PC3+PC4：
+
+<img src="https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/cfb45f36-4cdb-4c45-b2a5-a385e9e44f0e" width="40%">
+
+使用PC进行随机森林分群的贡献度：
+
+<img src="https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/ec0092f4-a9b1-41d9-b967-a98c5a3c92bc" width="40%">
+
+都可以看到好几个PC实际上对于区分IBD患者肠道非常重要
+
+
+
