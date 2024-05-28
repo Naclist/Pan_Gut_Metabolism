@@ -13,3 +13,15 @@ A test program for cross-feeding net within human gut using metagenomic data.
 合计1599个样本
 
 目前跑完的样本合计648个
+
+使用归一化后的RPKM进行群落结构分析
+仅PCA：
+![a5d969620be6a5882156af582286e54](https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/efa23c10-3102-44ee-85e9-5adfa5fedcef)
+仅UMAP：
+![8d2c7a8a025ca0dac7b610aa75ffc04](https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/f347e43c-4694-482f-a041-e27fee9ee699)
+PCA+UMAP（单细胞常用技巧）：
+![a271726d821aaf96c2fc24e4c4fe534](https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/5a4a680c-d7c4-41a3-8ba5-8922cb750bd0)
+同时使用随机森林进行预测：
+![0efa220899eb5b35f636c7f82b5f21e](https://github.com/Naclist/Pan_Gut_Metabolism/assets/88537949/b607ef74-1d31-4efd-8d23-123bea198946)
+结果尚可
+
