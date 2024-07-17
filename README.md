@@ -46,4 +46,11 @@ PCA+UMAP（单细胞常用技巧）：
 都可以看到好几个PC实际上对于区分IBD患者肠道非常重要
 
 
+# 2024年7月17日
 
+Another thought using CarveMe:
+If we can:
+1. estimate the abundance of each assembled contig
+2. use carveme to evaluate each contig
+3. conclude an abundance weighted metabolite-model
+Then we can figure out that the overall metabolite capability of this metagenomic community, right? just like the transcriptomic analysis.
